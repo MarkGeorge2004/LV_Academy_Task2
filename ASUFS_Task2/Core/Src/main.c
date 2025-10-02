@@ -100,6 +100,7 @@ int main(void)
 	  	  //Page 228 HAL_GPIO_TogglePin
 	  	  HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_3);
 	  	  //Page 50 HAL_Delay
+	  	  //used for debouncing
 	  	  HAL_Delay(1000);
 	  	  }
 
